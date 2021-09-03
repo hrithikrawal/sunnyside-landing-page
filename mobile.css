@@ -1,0 +1,133 @@
+@media (max-width:950px){
+
+    .left-items{
+        padding-right: 0;
+    }
+    .mall{
+        margin: 3rem 1rem 2rem 2rem;
+    }
+    .mall h1{
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    .items-text{
+        width: 90%;
+    }
+
+    .testmonials{
+        flex-direction: column;
+        margin: 4rem 6rem;
+    }
+
+    .test-items{
+        margin: 2rem;
+    }
+
+
+}
+
+@media (max-width: 600px){
+    body{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .flex-container{
+        height: 700px;
+    }
+    .mall{
+
+        text-align: center;
+    }
+    .white-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .section1 .left{
+        order: 2;
+    }
+    .left-items{
+        padding-right: 0;
+    }
+
+    .items-text{
+        width: 90%;
+    }
+
+    .testmonials{
+        flex-direction: column;
+        margin: 2rem 1rem;
+    }
+
+    .test-items{
+        margin: 1.5rem 0rem;
+    }
+
+    .section4 h2{
+        font-size: 1.3rem;
+    }
+
+    .section4{
+        background-color: hsl(0, 0%, 100%);
+        margin: 4rem 1rem 3rem 1rem ;
+    }
+    
+    .img-flex-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .hamburger{
+        display: block;
+    }
+
+    .hide{
+        visibility: hidden;
+    }
+
+    .overlay{
+        position: absolute;
+        background: white;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .mobile-menu{
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-menu span{
+        cursor: pointer;
+        margin: 1rem;
+    }
+    .contact{
+        cursor: pointer;
+        margin: 1rem;
+        background: rgb(202, 201, 201);
+    }
+}
+
+@media (max-width: 375px){
+    .footer-links a:not(:last-child){
+        padding-right: 1.5rem;
+    }
+    
+}
