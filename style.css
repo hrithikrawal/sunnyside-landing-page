@@ -7,7 +7,7 @@
     width: 100%;
 }
 .banner{
-    background-image: url('/images/desktop/image-header.jpg');
+    background-image: url('./images/desktop/image-header.jpg');
     height: 100vh;
     background-position: center bottom;
     background-size: cover;
@@ -107,7 +107,7 @@
 }
 
 .img-container-1{
-    background: url('/images/desktop/image-transform.jpg');
+    background: url('./images/desktop/image-transform.jpg');
     object-fit: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@
 }
 
 .img-container-2{
-    background: url('/images/desktop/image-stand-out.jpg');
+    background: url('./images/desktop/image-stand-out.jpg');
     object-fit: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -159,7 +159,7 @@
 
 
 .img-container-3{
-    background: url('/images/desktop/image-graphic-design.jpg');
+    background: url('./images/desktop/image-graphic-design.jpg');
     object-fit: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@
 }
 
 .img-container-4{
-    background: url('/images/desktop/image-photography.jpg');
+    background: url('./images/desktop/image-photography.jpg');
     object-fit: cover;
     background-position: center center;
     background-repeat: no-repeat;
