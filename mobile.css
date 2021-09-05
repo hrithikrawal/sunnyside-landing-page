@@ -127,7 +127,7 @@
 
 @media (max-width: 385px){
     .footer-links a{
-        font-size: .9rem;
+        font-size: .8rem;
     }
     .footer-links a:not(:last-child){
         padding-right: .8rem;
