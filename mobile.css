@@ -125,9 +125,9 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 385px){
     .footer-links a:not(:last-child){
-        padding-right: 1rem;
+        padding-right: .8rem;
     }
     
 }
